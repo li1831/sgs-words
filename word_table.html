@@ -2,7 +2,8 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#e7e9ec" />
   <!-- SEO：便于 Google / Bing / 百度 抓取与展示摘要（仍需在站长平台提交网址） -->
   <title>三国杀台词和语音搜索 — 台词检索、技能语音试听</title>
   <meta name="description" content="三国杀台词搜索工具：按台词、技能名、武将语音路径全文检索，支持语音 mp3 在线试听。数据来自游戏台词配置，方便查找武将台词与技能配音。" />
@@ -32,14 +33,22 @@
       color: #1a1d21;
       font-size: 14px;
       line-height: 1.45;
+      overflow-x: hidden;
+      /* 移动端动态视口，避免地址栏遮挡 */
+      min-height: 100vh;
+      min-height: 100dvh;
+      padding-bottom: env(safe-area-inset-bottom, 0);
     }
     .page {
-      height: 100vh;
       max-width: 100%;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
       min-height: 0;
+      height: 100vh;
+      height: 100dvh;
+      min-height: 100vh;
+      min-height: 100dvh;
     }
     /* 顶栏：窄条，不抢表格空间 */
     .top-bar {
@@ -246,6 +255,139 @@
       color: #555;
     }
     details.fallback input[type="file"] { font-size: 11px; margin-left: 6px; }
+
+    /* ========== 响应式：平板 ========== */
+    @media (max-width: 900px) {
+      body { font-size: 13px; }
+      .top-bar { padding: 8px 10px; gap: 8px; }
+      #filter {
+        width: min(220px, 42vw);
+      }
+      table { font-size: 13px; }
+      thead th, tbody td { padding: 6px 8px; font-size: 13px; }
+      .sheet-wrap {
+        border-left: none;
+        border-right: none;
+      }
+    }
+
+    /* ========== 响应式：手机 ========== */
+    @media (max-width: 640px) {
+      body { font-size: 13px; }
+      .top-bar {
+        padding: 8px 10px;
+        padding-left: max(10px, env(safe-area-inset-left));
+        padding-right: max(10px, env(safe-area-inset-right));
+        gap: 8px;
+        align-items: stretch;
+      }
+      .top-bar h1 {
+        order: 1;
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 0 0 8px 0;
+        margin-bottom: 2px;
+        white-space: normal;
+        font-size: 0.95rem;
+        line-height: 1.35;
+      }
+      .top-bar .load-status {
+        order: 2;
+        font-size: 11px;
+      }
+      .top-bar-spacer { display: none !important; }
+      .search-wrap {
+        order: 3;
+        flex: 1 1 100%;
+        width: 100%;
+        min-width: 0;
+      }
+      .search-wrap label { font-size: 12px; }
+      #filter {
+        width: 100%;
+        min-height: 44px;
+        font-size: 16px; /* 避免 iOS 聚焦时整页缩放 */
+        padding: 8px 12px;
+      }
+      #btnReload {
+        order: 4;
+        min-height: 40px;
+        flex: 1 1 auto;
+      }
+      .top-bar label.inline {
+        order: 5;
+        min-height: 40px;
+        align-items: center;
+      }
+      .top-bar select { min-height: 40px; font-size: 14px; }
+      #prev {
+        order: 6;
+        min-width: 72px;
+        min-height: 40px;
+        flex: 0 1 auto;
+      }
+      #next {
+        order: 7;
+        min-width: 72px;
+        min-height: 40px;
+        flex: 0 1 auto;
+      }
+      .meta-row {
+        font-size: 11px;
+        padding: 6px 10px;
+        word-break: break-word;
+      }
+      /* 表格：保持最小宽度，横向滑动查看（类 Excel） */
+      .sheet-wrap {
+        flex: 1 1 auto;
+        min-height: 200px;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: auto;
+        overflow-y: auto;
+      }
+      table {
+        min-width: 720px;
+        width: max(100%, 720px);
+        font-size: 12px;
+      }
+      col.w-skin { min-width: 4.5rem; }
+      col.w-name { min-width: 4rem; }
+      col.w-skill { min-width: 4rem; }
+      col.w-words { min-width: 8rem; }
+      col.w-mp3 { min-width: 10rem; }
+      thead th {
+        font-size: 12px;
+        padding: 8px 6px;
+      }
+      tbody td {
+        font-size: 12px;
+        padding: 6px 6px;
+      }
+      .cell-skin img {
+        max-width: 64px;
+        max-height: 64px;
+      }
+      button.play-mp3 {
+        min-width: 40px;
+        min-height: 36px;
+        padding: 6px 10px;
+      }
+      .mp3-line { font-size: 11px; }
+      .footer-note, details.fallback {
+        font-size: 10px;
+        padding-left: max(10px, env(safe-area-inset-left));
+        padding-right: max(10px, env(safe-area-inset-right));
+      }
+    }
+
+    /* 超窄屏再压一点 */
+    @media (max-width: 380px) {
+      table { min-width: 640px; width: max(100%, 640px); }
+      #prev, #next { min-width: 64px; font-size: 12px; }
+    }
   </style>
 </head>
 <body>
