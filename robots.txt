@@ -1,0 +1,5 @@
+# 允许搜索引擎抓取（部署到 GitHub Pages 根目录后生效）
+User-agent: *
+Allow: /
+
+Sitemap: https://li1831.github.io/sgs-words/sitemap.xml
