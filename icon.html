@@ -1,0 +1,89 @@
+<!-- 
+展示3000个武将头像，每个头像按照编号排列。点击头像可放大显示。
+-->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>三国杀武将头像展示</title>
+    <style>
+        body { font-family: sans-serif; background: #222; color: #eee; margin: 0; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; padding: 20px; }
+        .avatar-box { display: flex; flex-direction: column; align-items: center; }
+        .avatar-img { width: 64px; height: 64px; object-fit: cover; background: #333; border-radius: 8px; cursor: pointer; transition: transform .2s; border: 1px solid #444;}
+        .avatar-img:hover { transform: scale(1.2); box-shadow: 0 0 8px #e6b422cc; }
+        .avatar-no { font-size: 13px; color: #bbb; margin-top: 3px;}
+        .overlay { 
+            display: none; 
+            position: fixed; 
+            top:0; left:0; bottom:0; right:0; 
+            background: rgba(0,0,0,.9);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            transition: opacity .2s;
+        }
+        .overlay.active { display: flex; }
+        .overlay img { 
+            max-height: 90vh; 
+            max-width: 90vw; 
+            border-radius: 14px; 
+            box-shadow: 0 0 30px #000a;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;margin:20px 0 10px 0;">三国杀1-3000号武将头像</h2>
+    <div class="gallery" id="gallery"></div>
+    <div class="overlay" id="overlay">
+        <img id="overlayImg" src="" alt="头像大图">
+    </div>
+    <script>
+        const gallery = document.getElementById('gallery');
+        for (let i = 1; i <= 3000; i++) {
+            const imageNumber = i * 100;
+            const imgUrl = `https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/skinShop/${imageNumber}.png`;
+
+            const box = document.createElement('div');
+            box.className = 'avatar-box';
+
+            const img = document.createElement('img');
+            img.className = 'avatar-img';
+            img.src = imgUrl;
+            img.alt = `武将${i}`;
+            img.title = `序号${i}`;
+            img.onerror = function() {
+                // 若图片加载失败, 显示一个透明svg占位
+                this.onerror = null;
+                this.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"></svg>';
+                this.style.opacity = .15;
+            };
+            img.addEventListener('click', function() {
+                showOverlay(imgUrl);
+            });
+
+            const no = document.createElement('div');
+            no.className = 'avatar-no';
+            no.textContent = i;
+
+            box.appendChild(img);
+            box.appendChild(no);
+            gallery.appendChild(box);
+        }
+
+        const overlay = document.getElementById('overlay');
+        const overlayImg = document.getElementById('overlayImg');
+        function showOverlay(src) {
+            overlayImg.src = src;
+            overlay.classList.add('active');
+        }
+        overlay.addEventListener('click', function(e) {
+            // 点击遮罩关闭放大图（但点击图片本身不关闭）
+            if (e.target === overlay) overlay.classList.remove('active');
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') overlay.classList.remove('active');
+        });
+    </script>
+</body>
+</html>

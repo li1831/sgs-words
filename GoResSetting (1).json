@@ -1,0 +1,2613 @@
+[
+	{
+		"enable": "checked",
+		"sid": "0000001",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/wallpaper/bg/xinchunxunyu.png?v=-2100719587",
+		"target": "https://raw.githubusercontent.com/li1831/images/main/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91cg-cg%E7%BE%8E%E5%A5%B3.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158592",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_15.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/71300.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158593",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_16.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/1607.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158594",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_17.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/1707.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158595",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_18.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/47402.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158596",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_19.png?v=-18247379797",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/31508.png?v=-12371640537"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158597",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_20.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/31607.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158598",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2006.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/44408.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "0158599",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_28.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/2806.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585910",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_50.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/5007.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585911",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_50.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/4206.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585912",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2010.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/11103.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585913",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_34.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/52601.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585914",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_35.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/71201.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585915",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2013.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/4307.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585916",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_121.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/12102.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585917",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_1.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/66402.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585918",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/30009.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585919",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_3.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/306.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585920",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2018.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/71701.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585921",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_5.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/10808.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585922",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_6.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/10706.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585923",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2021.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/62201.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585924",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_61.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/2610.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585925",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_27.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/45604.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585926",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_36.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/3605.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585927",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_37.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/47503.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585928",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_53.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/45103.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585929",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_47.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/49201.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585930",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_46.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/47902.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585931",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2029.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/701702.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585932",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_8.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/44208.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585933",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_9.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/22401.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585934",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_10.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/30609.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585935",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_11.png?v=5951898697",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/30708.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585936",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2034.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/20301.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585937",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_13.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/30907.png?v=-12706839877"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585938",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2036.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/31006.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585939",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_25.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/10312.png?v=4146303877"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585940",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_44.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/60901.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585941",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2039.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/70501.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585942",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_38.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/3808.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585943",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2041.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/21007.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585944",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_49.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/48502.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585945",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_55.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/5505.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585946",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2044.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/12605.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585947",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_22.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/31805.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585948",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2046.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/71401.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585949",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2047.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/71501.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585950",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_41.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/62301.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585951",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_40.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_681.png?v=-19280342667"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585952",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_48.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/4808.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585953",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_39.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/10505.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585954",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2052.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/22701.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585955",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_57.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/11210.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585956",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2054.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/205401.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585957",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2055.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/64301.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585958",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2056.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/205605.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585959",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2057.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/205703.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585960",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2058.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/12705.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585961",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2059.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/205905.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585962",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_131.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/13108.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585963",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2061.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_576.png?v=-1388330247"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585964",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2063.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/58702.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585965",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2065.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/47102.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585966",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2068.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/44902.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585967",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2073.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/11405.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585968",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2074.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/207404.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585969",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2075.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/58602.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585970",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_317.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/31705.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585971",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_167.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/16705.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585972",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2066.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/63301.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585973",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2067.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/60501.png?v=-13646053237"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585974",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2069.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/206902.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585975",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2070.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/701602.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585976",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2071.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/207102.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585977",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2072.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/207202.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585978",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2076.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/207601.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585979",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2077.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/57301.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585980",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2078.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/43104.png?v=10981627987"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585981",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2079.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/50003.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585982",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2082.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/58801.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585983",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_156.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/15606.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585984",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2094.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/44702.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585986",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2080.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/18506.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585987",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_415.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/41506.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585988",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2093.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/41404.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585989",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2098.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/15707.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585990",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_401.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/40102.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585991",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2100.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/16006.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585992",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2101.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_737.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585993",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_2102.png",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_646.png"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585994",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/15caocao/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/713mocaocao/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585995",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/15caocao/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/713mocaocao/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585996",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/7skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585997",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/7skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585998",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/7skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "01585999",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/16simayi/7skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859100",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859101",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859102",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/18zhangliao/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/314jiezhangliao/6skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859103",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/18zhangliao/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/314jiezhangliao/6skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859104",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/19xuzhu/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/315jiexuchu/7skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859105",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/19xuzhu/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/315jiexuchu/7skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859106",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/5skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859107",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/5skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859108",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/5skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859109",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/5skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859110",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/21zhenji/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/444jiezhenji/9skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859111",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/21zhenji/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/444jiezhenji/9skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859112",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/21zhenji/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/444jiezhenji/9skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859113",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/21zhenji/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/444jiezhenji/9skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859114",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/28xiahouyuan/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/453jiexiahouyuan/3skill1_1.mp3?v=-5766853177"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859115",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/28xiahouyuan/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/453jiexiahouyuan/3skill1_2.mp3?v=5373362157"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859116",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/50zhanghe/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/50zhanghe/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859117",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/50zhanghe/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/50zhanghe/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859118",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/42xuhuang/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/496xuhuang/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859119",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/42xuhuang/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/496xuhuang/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859120",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/111SPcaoren/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859121",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/111SPcaoren/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859122",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/34dianwei/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/526jiedianwei/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859123",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/34dianwei/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/526jiedianwei/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859124",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/712zuxunyu/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859125",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/712zuxunyu/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859126",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/712zuxunyu/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859127",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/712zuxunyu/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859128",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/6skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859129",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/6skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859130",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/6skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859131",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/43caopi/6skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859132",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859133",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859134",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/1liubei/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/299jieliubei/10skill1_3.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859135",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/1liubei/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/299jieliubei/10skill1_4.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859136",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2guanyu/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/300jieguanyu/11skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859137",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2guanyu/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/300jieguanyu/11skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859138",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/7skill1_2.mp3?v=-19297785317"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859139",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/7skill1_1.mp3?v=-14814064547"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859140",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4zhugeliang/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/717mouzhugeliang/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859141",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4zhugeliang/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/717mouzhugeliang/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859142",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4zhugeliang/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/717mouzhugeliang/2skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859143",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4zhugeliang/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/717mouzhugeliang/2skill3_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859144",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/5zhaoyun/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/302jiezhaoyun/8skill1_3.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859145",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/5zhaoyun/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/302jiezhaoyun/8skill2_3.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859146",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6machao/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/303jiemachao/6skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859147",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6machao/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/303jiemachao/6skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859148",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7huangyueying/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/622mouhuangyueying/7skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859149",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7huangyueying/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/622mouhuangyueying/7skill3_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859152",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/456jieweiyan/6skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859153",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/456jieweiyan/6skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859154",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/36pangtong/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/635moupangtong/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859155",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/36pangtong/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/635moupangtong/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859156",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/36pangtong/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/4skill2_1.mp3?v=-12652295437"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859157",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/36pangtong/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/4skill2_2.mp3?v=18532304397"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859158",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/37wolongzhugeliang/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/454jiewolong/7skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859160",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/37wolongzhugeliang/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/4skill1_2.mp3?v=16151681977"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859161",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/37wolongzhugeliang/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/4skill1_1.mp3?v=13612959917"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859162",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/37wolongzhugeliang/1skill3_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859163",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/37wolongzhugeliang/1skill3_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859164",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/53liushan/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/451jieliushan/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859165",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/53liushan/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/451jieliushan/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859166",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/53liushan/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/451jieliushan/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859167",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/53liushan/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/451jieliushan/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859168",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/47menghuo/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859169",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/47menghuo/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859170",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/47menghuo/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859171",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/47menghuo/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859172",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/479jiezhurong/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859173",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/479jiezhurong/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859174",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/479jiezhurong/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859175",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/479jiezhurong/3skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859176",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859177",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859178",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859179",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859180",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/8sunquan/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/442jiesunquan/10skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859181",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/8sunquan/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/442jiesunquan/10skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859182",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/305jieganning/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859183",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/305jieganning/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859184",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/10lvmeng/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/306jielvmeng/6skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859185",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/10lvmeng/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/306jielvmeng/6skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859186",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2032lvmeng/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2032lvmeng/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859187",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2032lvmeng/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2032lvmeng/5skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859188",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/11huanggai/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/307jiehuanggai/9skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859189",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/11huanggai/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/307jiehuanggai/9skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859190",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/308jiezhouyu/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859191",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/308jiezhouyu/9skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859192",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/308jiezhouyu/9skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859193",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/308jiezhouyu/9skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859194",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/13daqiao/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/309jiedaqiao/9skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859195",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/13daqiao/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/309jiedaqiao/9skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859196",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/13daqiao/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/309jiedaqiao/9skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859197",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/13daqiao/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/309jiedaqiao/9skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859198",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2036luxun/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/310jieluxun/9skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859199",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2036luxun/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/310jieluxun/9skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859202",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/25sunshangxiang/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/103SPsunshangxiang/8skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859203",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/25sunshangxiang/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/103SPsunshangxiang/8skill3_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859204",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/25sunshangxiang/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/103SPsunshangxiang/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859205",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/25sunshangxiang/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/103SPsunshangxiang/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859206",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/44sunjian/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/609mousunjian/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859207",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/44sunjian/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/609mousunjian/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859208",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/30xiaoqiao/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/705mouxiaoqiao/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859209",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/30xiaoqiao/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/705mouxiaoqiao/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859210",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/38taishici/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/38taishici/6skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859211",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/38taishici/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/38taishici/6skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859212",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/210zhoutai/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/210zhoutai/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859213",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/210zhoutai/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/210zhoutai/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859216",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/49lusu/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/718moulusu/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859217",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/49lusu/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/718moulusu/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859218",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/49lusu/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/718moulusu/1skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859219",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/49lusu/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/718moulusu/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859220",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859221",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859222",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859223",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/55zhangzhaozhanghong/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859224",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/6skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859225",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/6skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859226",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/6skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859227",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/126dingfeng/6skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859228",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/22huatuo/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/318jiehuatuo/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859229",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/22huatuo/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/318jiehuatuo/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859230",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/318jiehuatuo/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/22huatuo/4skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859231",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/318jiehuatuo/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/22huatuo/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859232",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/23lvbu/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/714molvbu/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859233",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/23lvbu/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/714molvbu/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859234",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/24diaochan/2skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/715modiaochan/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859235",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/24diaochan/2skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/715modiaochan/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859236",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/24diaochan/2skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/715modiaochan/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859237",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/24diaochan/2skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/715modiaochan/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859238",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/41yuanshao/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/623mouyuanshao/4skill2_1.mp3?v=-9867008497"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859239",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/41yuanshao/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/623mouyuanshao/4skill3_5.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859240",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/40yanliangwenchou/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/681mouwenchou/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859241",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/40yanliangwenchou/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/681mouwenchou/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859242",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859243",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/7skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859244",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/5skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859245",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859246",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill3_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill3_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859247",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill3_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/7skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859248",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/648mougongsunzan/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859249",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/648mougongsunzan/4skill1_3.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859250",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/212zhangjiao/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859251",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/212zhangjiao/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/2skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859252",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/212zhangjiao/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859253",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/212zhangjiao/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859254",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/112SPcaiwenji/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859255",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/112SPcaiwenji/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859256",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/112SPcaiwenji/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859257",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/112SPcaiwenji/1skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859258",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2054mateng/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2054mateng/3skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859259",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2054mateng/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2054mateng/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859260",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/643moukongrong/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859261",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/643moukongrong/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859262",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/643moukongrong/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859263",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/643moukongrong/1skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859264",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859265",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859266",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859267",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859268",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859269",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859270",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2058panfeng/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/127panfeng/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859271",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2058panfeng/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/127panfeng/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859272",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/729huanshujun/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859273",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/729huanshujun/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859274",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/729huanshujun/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859275",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/729huanshujun/1skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859276",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/51dengai/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859277",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/51dengai/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859278",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/1skill3_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/51dengai/3skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859279",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/1skill3_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/51dengai/3skill3_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859280",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859281",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2065dengai/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859284",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/576jiangwan/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859285",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/1skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859286",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/576jiangwan/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859287",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859288",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2075jiangwei/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/586moujiangwei/2skill5_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859289",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2075jiangwei/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/586moujiangwei/2skill5_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859290",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2075jiangwei/1skill3_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/586moujiangwei/2skill5_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859291",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2075jiangwei/1skill3_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/586moujiangwei/9skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859292",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2075jiangwei/1skill5_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/586moujiangwei/9skill4_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859293",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2075jiangwei/1skill5_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/586moujiangwei/9skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859294",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2063xusheng/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859295",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2063xusheng/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859296",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859297",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859298",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859299",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859300",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859301",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859302",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859303",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/131hetaihou/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859304",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2068yuji/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2068yuji/8skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859305",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2068yuji/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2068yuji/8skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859306",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859307",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859308",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859309",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859310",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859311",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859312",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859313",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859314",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859315",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859316",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/5skill1_5.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859317",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/5skill1_6.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859318",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/1skill3_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859319",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/1skill3_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859320",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859321",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859322",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2066sunce/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2066sunce/3skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859323",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2066sunce/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2066sunce/3skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859324",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/1skill4_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/4skill4_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859325",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/1skill4_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/4skill4_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859326",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/1skill5_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/4skill5_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859327",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/1skill5_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/54sunce/4skill5_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859330",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/2skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859331",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859332",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859333",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859334",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2076lijueguosi/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2076lijueguosi/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859335",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2076lijueguosi/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2076lijueguosi/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859336",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/164xunyou/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/573xunyou/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859337",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/164xunyou/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/573xunyou/2skill1_2.mp3?v=-11600705517"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859338",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/164xunyou/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/573xunyou/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859339",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/164xunyou/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/573xunyou/2skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859340",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859341",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859342",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859343",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859344",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859345",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859346",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859347",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859348",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859349",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2082lingtong/5skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859350",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859351",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859352",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859353",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/156masu/5skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859354",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/7skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859355",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/7skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859356",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/7skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859357",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2094zuoci/7skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859358",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859359",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/3skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859360",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/4skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859361",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/4skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859362",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/5skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859363",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859364",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859365",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859366",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2081zhangxiu/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/415zhangxiu/6skill3_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859367",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2081zhangxiu/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/415zhangxiu/6skill3_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859368",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2081zhangxiu/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/415zhangxiu/6skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859369",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2081zhangxiu/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/415zhangxiu/6skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859370",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2093lukang/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/414lukang/5skill6_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859371",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2093lukang/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/414lukang/5skill6_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859372",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2093lukang/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/414lukang/5skill7_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859373",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2093lukang/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/414lukang/5skill7_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859374",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859375",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859376",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/5skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859377",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/157wuguotai/5skill2_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859378",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2099wangping/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2099wangping/5skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859379",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2099wangping/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2099wangping/5skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859380",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2100yujin/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2100yujin/4skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859381",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2100yujin/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2100yujin/4skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859382",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1skill1_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/737zuchenqun/1skill1_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859383",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1skill1_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/737zuchenqun/1skill1_2.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859384",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1skill2_1.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/737zuchenqun/1skill2_1.mp3"
+	},
+	{
+		"enable": "checked",
+		"sid": "015859385",
+		"type": "EXACT",
+		"into": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1skill2_2.mp3",
+		"target": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/737zuchenqun/1skill2_2.mp3"
+	}
+]

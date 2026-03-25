@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>三国杀武将头像批量加载</title>
+    <style>
+        body { font-family: sans-serif; }
+        .img-container { display: flex; flex-wrap: wrap; }
+        .img-box { margin: 5px; text-align: center; }
+        img { width: 100px; height: 100px; object-fit: cover; border: 1px solid #ccc; }
+        .error { color: red; font-size: 10px; }
+    </style>
+</head>
+<body>
+    <h3>正在加载武将头像 (1-3000)...</h3>
+    <div class="img-container" id="container"></div>
+
+    <script>
+        const container = document.getElementById('container');
+        const baseUrl = "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/seat/static/generalface_";
+        const maxNum = 3000; // 你可以根据需要调整这个数字
+
+        for (let i = 1; i <= maxNum; i++) {
+            const div = document.createElement('div');
+            div.className = 'img-box';
+            
+            const img = document.createElement('img');
+            // 注意：有些服务器可能需要补零，如 01, 02，但根据你的描述是直接数字，这里先按直接数字处理
+            // 如果直接数字不行，可以尝试 ${i.toString().padStart(2, '0')}
+            const url = `${baseUrl}${i}.png`; 
+            img.src = url;
+            img.onerror = function() {
+                this.style.display = 'none'; // 隐藏加载失败的图片
+                // 或者显示文字: div.innerHTML = `<span class="error">${i}</span>`;
+            };
+            
+            const span = document.createElement('span');
+            span.innerText = i;
+            span.style.display = 'block';
+            span.style.fontSize = '12px';
+
+            div.appendChild(img);
+            div.appendChild(span);
+            container.appendChild(div);
+        }
+    </script>
+</body>
+</html>

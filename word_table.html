@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>三国杀台词和语音搜索</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+      background: #e7e9ec;
+      color: #1a1d21;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    .page {
+      height: 100vh;
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+    /* 顶栏：窄条，不抢表格空间 */
+    .top-bar {
+      flex-shrink: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 12px;
+      padding: 6px 10px;
+      background: #fff;
+      border-bottom: 1px solid #c5c5c5;
+    }
+    .top-bar h1 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+      padding-right: 8px;
+      border-right: 1px solid #ddd;
+      color: #1a1a1a;
+      white-space: nowrap;
+    }
+    .top-bar .load-status {
+      font-size: 12px;
+      color: #2563eb;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .top-bar .load-status.done { color: #15803d; }
+    .top-bar .load-status.err { color: #b91c1c; }
+    .top-bar-spacer { flex: 1 1 8px; min-width: 0; }
+    /* 搜索框：固定宽度，不再占满一行 */
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .search-wrap label {
+      font-size: 12px;
+      color: #555;
+      white-space: nowrap;
+    }
+    #filter {
+      width: min(260px, 36vw);
+      height: 30px;
+      padding: 4px 10px;
+      font-size: 13px;
+      border: 1px solid #b4b4b4;
+      border-radius: 2px;
+      background: #fff;
+    }
+    #filter:focus {
+      outline: none;
+      border-color: #217346;
+      box-shadow: inset 0 0 0 1px #217346;
+    }
+    .top-bar label.inline {
+      font-size: 12px;
+      color: #444;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .top-bar select {
+      height: 28px;
+      padding: 2px 6px;
+      font-size: 12px;
+      border: 1px solid #b4b4b4;
+      border-radius: 2px;
+      background: #fff;
+    }
+    .top-bar button {
+      height: 28px;
+      padding: 0 10px;
+      font-size: 12px;
+      border: 1px solid #b4b4b4;
+      border-radius: 2px;
+      background: #f3f3f3;
+      cursor: pointer;
+      color: #333;
+    }
+    .top-bar button:hover { background: #e8e8e8; }
+    .top-bar button:disabled { opacity: .45; cursor: not-allowed; }
+    .top-bar button.primary {
+      background: #217346;
+      border-color: #1e6a3f;
+      color: #fff;
+    }
+    .top-bar button.primary:hover { background: #1a5c38; }
+    .meta-row {
+      flex-shrink: 0;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #555;
+      background: #f3f3f3;
+      border-bottom: 1px solid #c5c5c5;
+    }
+    /* 主体：表格铺满剩余高度，类 Excel */
+    .sheet-wrap {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: auto;
+      background: #fff;
+      border-left: 1px solid #c5c5c5;
+      border-right: 1px solid #c5c5c5;
+    }
+    table {
+      border-collapse: collapse;
+      table-layout: fixed;
+      width: 100%;
+      font-size: 14px;
+    }
+    col.w-skin { width: 10%; min-width: 7rem; }
+    col.w-name { width: 10%; min-width: 5.5rem; }
+    col.w-skill { width: 11%; min-width: 5rem; }
+    col.w-words { width: 32%; }
+    col.w-mp3 { width: 37%; min-width: 12rem; }
+    .cell-name { font-weight: 600; color: #1e3a2f; }
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: #f2f2f2;
+      border: 1px solid #bfbfbf;
+      padding: 8px 10px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 13px;
+      color: #111;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+    thead th:hover { background: #e8e8e8; }
+    thead th.sort-asc::after { content: " ▲"; font-size: 10px; opacity: .55; }
+    thead th.sort-desc::after { content: " ▼"; font-size: 10px; opacity: .55; }
+    tbody td {
+      border: 1px solid #d0d0d0;
+      padding: 8px 10px;
+      vertical-align: top;
+      word-break: break-word;
+      font-size: 14px;
+    }
+    tbody tr:nth-child(even) { background: #fafafa; }
+    tbody tr:hover { background: #e8f4e8; }
+    .cell-array { white-space: pre-wrap; line-height: 1.55; }
+    .cell-skin {
+      text-align: center;
+      vertical-align: middle;
+    }
+    .cell-skin img {
+      display: block;
+      margin: 0 auto;
+      max-width: 88px;
+      max-height: 88px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 2px;
+      border: 1px solid #ccc;
+      background: #fafafa;
+    }
+    .footer-note {
+      flex-shrink: 0;
+      font-size: 11px;
+      color: #777;
+      padding: 4px 10px 6px;
+      background: #e7e9ec;
+    }
+    .err { color: #b91c1c; font-size: 12px; padding: 4px 10px; font-weight: 500; }
+    .cell-mp3 { font-size: 13px; }
+    .mp3-line {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .mp3-line:last-child { margin-bottom: 0; }
+    button.play-mp3 {
+      flex-shrink: 0;
+      padding: 2px 8px;
+      min-width: 32px;
+      font-size: 11px;
+      line-height: 1.3;
+      border-radius: 2px;
+      border: 1px solid #b4b4b4;
+      background: #f3f3f3;
+      cursor: pointer;
+    }
+    button.play-mp3:hover { background: #e0e0e0; }
+    .mp3-path { word-break: break-all; color: #334155; padding-top: 2px; }
+    details.fallback {
+      flex-shrink: 0;
+      font-size: 11px;
+      color: #666;
+      padding: 2px 10px 6px;
+      background: #e7e9ec;
+    }
+    details.fallback summary {
+      cursor: pointer;
+      user-select: none;
+      color: #555;
+    }
+    details.fallback input[type="file"] { font-size: 11px; margin-left: 6px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+  <header class="top-bar">
+    <h1>三国杀台词和语音搜索</h1>
+    <span class="load-status" id="loadStatus" aria-live="polite">正在加载 word.json…</span>
+    <div class="top-bar-spacer"></div>
+    <div class="search-wrap">
+      <label for="filter">搜索</label>
+      <input type="search" id="filter" placeholder="台词 / 技能 / 语音…" autocomplete="off" />
+    </div>
+    <button type="button" class="primary" id="btnReload" title="重新加载 word.json">重新加载</button>
+    <label class="inline">每页 <select id="pageSize">
+      <option value="100">100</option>
+      <option value="200" selected>200</option>
+      <option value="500">500</option>
+      <option value="1000">1000</option>
+    </select></label>
+    <button type="button" id="prev">上一页</button>
+    <button type="button" id="next">下一页</button>
+  </header>
+  <div class="meta-row" id="meta"></div>
+  <div class="sheet-wrap">
+    <table>
+      <colgroup>
+        <col class="w-skin" />
+        <col class="w-name" />
+        <col class="w-skill" />
+        <col class="w-words" />
+        <col class="w-mp3" />
+      </colgroup>
+      <thead><tr id="theadRow"></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <p class="footer-note">数据自动请求<strong>与本页同目录</strong>的 <code>word.json</code>（适合 GitHub Pages：仓库里与 <code>word_table.html</code> 放同一文件夹并开启 Pages 即可）。武将名由语音路径解析。语音列 ▶ 播放。</p>
+  <details class="fallback">
+    <summary>无法自动加载？手动选择 word.json</summary>
+    <input type="file" id="file" accept=".json,application/json" />
+  </details>
+  <div class="err" id="err"></div>
+  </div>
+
+  <script>
+    (function () {
+      /** 始终相对「当前 HTML 所在路径」解析，兼容 GitHub Pages 子路径（如 /repo/word_table.html → /repo/word.json） */
+      function getWordJsonUrl() {
+        return new URL("./word.json", window.location.href).href;
+      }
+
+      const fileInput = document.getElementById("file");
+      const btnReload = document.getElementById("btnReload");
+      const loadStatus = document.getElementById("loadStatus");
+      const filterEl = document.getElementById("filter");
+      const pageSizeEl = document.getElementById("pageSize");
+      const prevBtn = document.getElementById("prev");
+      const nextBtn = document.getElementById("next");
+      const theadRow = document.getElementById("theadRow");
+      const tbody = document.getElementById("tbody");
+      const meta = document.getElementById("meta");
+      const errEl = document.getElementById("err");
+
+      let allRows = [];
+      let filtered = [];
+      let page = 1;
+      let sortKey = "";
+      let sortDir = 1;
+      let sharedAudio = null;
+
+      const VOICE_SPELL_BASE =
+        "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/";
+
+      /** sounds 相对路径 → spell mp3 完整 URL */
+      function soundToMp3Url(rel) {
+        const s = String(rel ?? "").trim();
+        if (!s) return "";
+        const base = s.replace(/\.mp3$/i, "");
+        return VOICE_SPELL_BASE + base + ".mp3";
+      }
+
+      function playMp3(url) {
+        if (!url) return;
+        if (!sharedAudio) sharedAudio = new Audio();
+        sharedAudio.pause();
+        sharedAudio.src = url;
+        sharedAudio.play().catch(function () {});
+      }
+
+      /** mapKey 如 363_36301 → 取 363（第一个 _ 之前） */
+      function imageNumberFromMapKey(mapKey) {
+        const s = String(mapKey ?? "");
+        const i = s.indexOf("_");
+        return i === -1 ? s : s.slice(0, i);
+      }
+
+      function skinShopUrl(mapKey) {
+        const n = imageNumberFromMapKey(mapKey);
+        return "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/skinShop/" + n + "00.png";
+      }
+
+      /**
+       * 从语音路径解析武将名：取第一段目录名并去掉前导数字。
+       * 如 52jiangwei → jiangwei；299jieliubei/6skill1_1 → jieliubei
+       */
+      function generalNameFromSounds(sounds) {
+        if (!Array.isArray(sounds)) return "";
+        for (let i = 0; i < sounds.length; i++) {
+          const raw = String(sounds[i] ?? "").trim();
+          if (!raw) continue;
+          const head = raw.split("/")[0];
+          const name = head.replace(/^\d+/, "");
+          if (name) return name;
+        }
+        return "";
+      }
+
+      const columns = ["skinShop", "generalName", "skillName", "words", "mp3"];
+      const DISPLAY_NAMES = {
+        skinShop: "皮肤图",
+        generalName: "武将名",
+        skillName: "技能名",
+        words: "台词",
+        mp3: "语音 (mp3)",
+      };
+
+      function flatten(data) {
+        const rows = [];
+        const maps = data && data._maps;
+        if (!maps || typeof maps !== "object") {
+          throw new Error("未找到 _maps 对象，请确认是 word.json 格式。");
+        }
+        for (const [mapKey, arr] of Object.entries(maps)) {
+          if (!Array.isArray(arr)) continue;
+          for (const item of arr) {
+            if (item && typeof item === "object") {
+              rows.push({
+                skinShop: skinShopUrl(mapKey),
+                generalName: generalNameFromSounds(item.sounds),
+                skillName: item.skillName,
+                words: item.words,
+                sounds: item.sounds,
+              });
+            }
+          }
+        }
+        return rows;
+      }
+
+      function cellValue(v) {
+        if (v === null || v === undefined) return "";
+        if (Array.isArray(v)) return v.join("\n");
+        if (typeof v === "object") return JSON.stringify(v);
+        return String(v);
+      }
+
+      /** 在完整 allRows 上匹配，再分页；含 mp3 完整 URL 便于搜路径 */
+      function rowMatches(row, q) {
+        if (!q) return true;
+        const low = q.toLowerCase();
+        if (cellValue(row.skinShop).toLowerCase().includes(low)) return true;
+        if (cellValue(row.generalName).toLowerCase().includes(low)) return true;
+        if (cellValue(row.skillName).toLowerCase().includes(low)) return true;
+        if (cellValue(row.words).toLowerCase().includes(low)) return true;
+        if (cellValue(row.sounds).toLowerCase().includes(low)) return true;
+        if (Array.isArray(row.sounds)) {
+          for (const s of row.sounds) {
+            if (soundToMp3Url(s).toLowerCase().includes(low)) return true;
+          }
+        }
+        return false;
+      }
+
+      function applyFilter() {
+        const q = filterEl.value.trim();
+        filtered = q ? allRows.filter((r) => rowMatches(r, q)) : allRows.slice();
+        page = 1;
+        if (sortKey) sortFiltered();
+        render();
+      }
+
+      function sortValue(row, key) {
+        if (key === "mp3") return cellValue(row.sounds);
+        return cellValue(row[key]);
+      }
+
+      function compare(a, b, key) {
+        const va = sortValue(a, key);
+        const vb = sortValue(b, key);
+        const na = Number(va);
+        const nb = Number(vb);
+        if (!Number.isNaN(na) && !Number.isNaN(nb) && va !== "" && vb !== "") {
+          return (na - nb) * sortDir;
+        }
+        return va.localeCompare(vb, "zh-CN") * sortDir;
+      }
+
+      function sortFiltered() {
+        if (!sortKey) return;
+        filtered.sort((a, b) => compare(a, b, sortKey));
+      }
+
+      function renderHead() {
+        theadRow.innerHTML = "";
+        for (const col of columns) {
+          const th = document.createElement("th");
+          th.textContent = DISPLAY_NAMES[col] || col;
+          th.dataset.key = col;
+          if (col === sortKey) {
+            th.className = sortDir > 0 ? "sort-asc" : "sort-desc";
+          }
+          th.addEventListener("click", () => {
+            if (sortKey === col) sortDir *= -1;
+            else {
+              sortKey = col;
+              sortDir = 1;
+            }
+            sortFiltered();
+            render();
+          });
+          theadRow.appendChild(th);
+        }
+      }
+
+      function renderBody() {
+        const size = parseInt(pageSizeEl.value, 10) || 200;
+        const total = filtered.length;
+        const pages = Math.max(1, Math.ceil(total / size));
+        if (page > pages) page = pages;
+        const start = (page - 1) * size;
+        const slice = filtered.slice(start, start + size);
+        tbody.innerHTML = "";
+        for (const row of slice) {
+          const tr = document.createElement("tr");
+          for (const col of columns) {
+            const td = document.createElement("td");
+            if (col === "skinShop") {
+              td.className = "cell-skin";
+              const url = row.skinShop || "";
+              const img = document.createElement("img");
+              img.src = url;
+              img.alt = "";
+              img.loading = "lazy";
+              img.referrerPolicy = "no-referrer";
+              img.title = url;
+              img.onerror = function () {
+                this.alt = "无图";
+              };
+              td.appendChild(img);
+            } else if (col === "generalName") {
+              td.className = "cell-name";
+              td.textContent = row.generalName || "";
+            } else if (col === "mp3") {
+              td.className = "cell-mp3";
+              const arr = row.sounds;
+              if (Array.isArray(arr) && arr.length) {
+                for (const rel of arr) {
+                  const mp3Url = soundToMp3Url(rel);
+                  const line = document.createElement("div");
+                  line.className = "mp3-line";
+                  const btn = document.createElement("button");
+                  btn.type = "button";
+                  btn.className = "play-mp3";
+                  btn.textContent = "▶";
+                  btn.title = mp3Url;
+                  btn.addEventListener("click", function () {
+                    playMp3(mp3Url);
+                  });
+                  const label = document.createElement("span");
+                  label.className = "mp3-path";
+                  label.textContent = rel;
+                  line.appendChild(btn);
+                  line.appendChild(label);
+                  td.appendChild(line);
+                }
+              }
+            } else {
+              const val = row[col];
+              if (Array.isArray(val) || (val && typeof val === "object" && !Array.isArray(val))) {
+                td.className = "cell-array";
+              }
+              td.textContent = cellValue(val);
+            }
+            tr.appendChild(td);
+          }
+          tbody.appendChild(tr);
+        }
+        const q = filterEl.value.trim();
+        meta.textContent =
+          total === 0
+            ? "无数据"
+            : q
+              ? `匹配 ${total} 行（全表 ${allRows.length} 行）· 第 ${page}/${pages} 页`
+              : `共 ${total} 行 · 第 ${page}/${pages} 页`;
+        prevBtn.disabled = page <= 1;
+        nextBtn.disabled = page >= pages;
+      }
+
+      function render() {
+        renderHead();
+        renderBody();
+      }
+
+      function loadData(data) {
+        errEl.textContent = "";
+        allRows = flatten(data);
+        sortKey = "";
+        sortDir = 1;
+        filtered = allRows.slice();
+        page = 1;
+        if (loadStatus) {
+          loadStatus.textContent = "已载入 " + allRows.length + " 行";
+          loadStatus.className = "load-status done";
+        }
+        const q = filterEl.value.trim();
+        if (q) applyFilter();
+        else render();
+      }
+
+      function fetchWordJson() {
+        errEl.textContent = "";
+        if (loadStatus) {
+          loadStatus.textContent = "正在加载 word.json…";
+          loadStatus.className = "load-status";
+        }
+        btnReload.disabled = true;
+        var jsonUrl = getWordJsonUrl();
+        fetch(jsonUrl, { credentials: "same-origin" })
+          .then(function (r) {
+            if (!r.ok) throw new Error(r.status + " " + r.statusText);
+            return r.json();
+          })
+          .then(function (data) {
+            loadData(data);
+          })
+          .catch(function (err) {
+            if (loadStatus) {
+              loadStatus.textContent = "自动加载失败";
+              loadStatus.className = "load-status err";
+            }
+            errEl.textContent =
+              "未能加载 " +
+              jsonUrl +
+              "。请将 word.json 与 word_table.html 放在同一目录并推送；GitHub 仓库 Settings → Pages 选择分支/目录后访问。本地可改用下方「手动选择」。 " +
+              (err && err.message ? err.message : String(err));
+            allRows = [];
+            filtered = [];
+            tbody.innerHTML = "";
+            theadRow.innerHTML = "";
+            meta.textContent = "";
+          })
+          .finally(function () {
+            btnReload.disabled = false;
+          });
+      }
+
+      fileInput.addEventListener("change", (e) => {
+        const f = e.target.files && e.target.files[0];
+        if (!f) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+          try {
+            loadData(JSON.parse(reader.result));
+            if (loadStatus) {
+              loadStatus.textContent = "已从本地文件载入";
+              loadStatus.className = "load-status done";
+            }
+          } catch (err) {
+            errEl.textContent = "解析失败：" + (err && err.message ? err.message : String(err));
+            allRows = [];
+            filtered = [];
+            tbody.innerHTML = "";
+            theadRow.innerHTML = "";
+            meta.textContent = "";
+            if (loadStatus) {
+              loadStatus.textContent = "";
+              loadStatus.className = "load-status";
+            }
+          }
+        };
+        reader.readAsText(f, "UTF-8");
+      });
+
+      btnReload.addEventListener("click", fetchWordJson);
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", fetchWordJson);
+      } else {
+        fetchWordJson();
+      }
+
+      filterEl.addEventListener("input", () => {
+        clearTimeout(filterEl._t);
+        filterEl._t = setTimeout(applyFilter, 200);
+      });
+
+      pageSizeEl.addEventListener("change", () => {
+        page = 1;
+        renderBody();
+      });
+
+      prevBtn.addEventListener("click", () => {
+        if (page > 1) {
+          page--;
+          renderBody();
+        }
+      });
+
+      nextBtn.addEventListener("click", () => {
+        const size = parseInt(pageSizeEl.value, 10) || 200;
+        const pages = Math.max(1, Math.ceil(filtered.length / size));
+        if (page < pages) {
+          page++;
+          renderBody();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
