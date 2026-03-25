@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#e7e9ec" />
+  <title>三国杀武将皮肤一览（1–2500）</title>
+  <meta name="description" content="三国杀武将序号 1–2500：小图标、默认大图、全皮肤大图（每将 10 套）表格浏览。" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+      background: #e7e9ec;
+      color: #1a1d21;
+      font-size: 14px;
+      line-height: 1.45;
+      overflow-x: hidden;
+      min-height: 100vh;
+      min-height: 100dvh;
+      padding-bottom: env(safe-area-inset-bottom, 0);
+    }
+    .page {
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      height: 100vh;
+      height: 100dvh;
+      min-height: 100vh;
+      min-height: 100dvh;
+    }
+    .top-bar {
+      flex-shrink: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 12px;
+      padding: 6px 10px;
+      padding-left: max(10px, env(safe-area-inset-left));
+      padding-right: max(10px, env(safe-area-inset-right));
+      background: #fff;
+      border-bottom: 1px solid #c5c5c5;
+    }
+    .top-bar h1 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+      padding-right: 8px;
+      border-right: 1px solid #ddd;
+      white-space: nowrap;
+    }
+    .top-bar label.inline {
+      font-size: 12px;
+      color: #444;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .top-bar select, .top-bar input[type="number"] {
+      height: 28px;
+      padding: 2px 8px;
+      font-size: 12px;
+      border: 1px solid #b4b4b4;
+      border-radius: 2px;
+      background: #fff;
+    }
+    .top-bar button {
+      height: 28px;
+      padding: 0 10px;
+      font-size: 12px;
+      border: 1px solid #b4b4b4;
+      border-radius: 2px;
+      background: #f3f3f3;
+      cursor: pointer;
+    }
+    .top-bar button.primary {
+      background: #217346;
+      border-color: #1e6a3f;
+      color: #fff;
+    }
+    .meta-row {
+      flex-shrink: 0;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #555;
+      background: #f3f3f3;
+      border-bottom: 1px solid #c5c5c5;
+    }
+    .sheet-wrap {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: auto;
+      background: #fff;
+      -webkit-overflow-scrolling: touch;
+    }
+    table {
+      border-collapse: collapse;
+      table-layout: fixed;
+      width: 100%;
+      min-width: 720px;
+      font-size: 13px;
+    }
+    col.w-id { width: 4rem; }
+    col.w-sm { width: 6rem; }
+    col.w-def { width: 8rem; }
+    col.w-all { width: auto; }
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: #f2f2f2;
+      border: 1px solid #bfbfbf;
+      padding: 8px 10px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    tbody td {
+      border: 1px solid #d0d0d0;
+      padding: 6px 8px;
+      vertical-align: middle;
+      word-break: break-word;
+    }
+    tbody tr:nth-child(even) { background: #fafafa; }
+    tbody tr:hover { background: #e8f4e8; }
+    .cell-id { font-weight: 600; text-align: center; }
+    .cell-img { text-align: center; }
+    /* 仅小图标列使用真实图片，避免大量大图请求 */
+    .cell-img img.icon-only {
+      display: block;
+      margin: 0 auto;
+      max-width: 72px;
+      max-height: 72px;
+      object-fit: contain;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      background: #fafafa;
+      cursor: pointer;
+    }
+    .cell-load {
+      text-align: center;
+      vertical-align: middle;
+    }
+    .btn-def-big {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 88px;
+      min-height: 52px;
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 1.3;
+      border: 1px dashed #888;
+      border-radius: 4px;
+      background: #f3f5f4;
+      color: #1a3d2e;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-def-big:hover { background: #e0ebe4; border-style: solid; }
+    .btn-def-big small {
+      display: block;
+      font-size: 10px;
+      color: #666;
+      margin-top: 4px;
+      font-weight: normal;
+    }
+    .skins-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: flex-start;
+    }
+    .skin-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+    }
+    .btn-skin {
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      background: #f0f2f1;
+      color: #333;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-skin:hover { background: #dce8df; border-color: #217346; color: #1a5c38; }
+    .footer-note {
+      flex-shrink: 0;
+      font-size: 11px;
+      color: #777;
+      padding: 4px 10px 8px;
+      background: #e7e9ec;
+    }
+    /* 大图预览 */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.85);
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      padding-bottom: max(16px, env(safe-area-inset-bottom));
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: min(96vw, 1200px);
+      max-height: min(90vh, 1200px);
+      object-fit: contain;
+      border-radius: 4px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+    }
+    .lightbox .caption {
+      position: absolute;
+      bottom: max(12px, env(safe-area-inset-bottom));
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #eee;
+      font-size: 13px;
+      padding: 8px;
+    }
+    .lightbox .close-hint {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      color: #fff;
+      font-size: 13px;
+      opacity: 0.85;
+      cursor: pointer;
+    }
+    @media (max-width: 640px) {
+      table { min-width: 640px; font-size: 12px; }
+      .btn-skin { width: 40px; height: 40px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <h1>武将皮肤一览（1–2500）</h1>
+      <label class="inline">每页
+        <select id="pageSize">
+          <option value="50">50</option>
+          <option value="100" selected>100</option>
+          <option value="200">200</option>
+          <option value="500">500</option>
+        </select>
+      </label>
+      <button type="button" id="prev">上一页</button>
+      <button type="button" id="next">下一页</button>
+      <label class="inline">跳到序号
+        <input type="number" id="jumpId" min="1" max="2500" placeholder="1–2500" style="width: 5rem;" />
+      </label>
+      <button type="button" class="primary" id="btnJump">前往</button>
+      <span style="font-size:12px;color:#666;">仅小图标预加载；默认/全皮肤大图点击后再请求</span>
+    </header>
+    <div class="meta-row" id="meta"></div>
+    <div class="sheet-wrap">
+      <table>
+        <colgroup>
+          <col class="w-id" />
+          <col class="w-sm" />
+          <col class="w-def" />
+          <col class="w-all" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>武将序号</th>
+            <th>小图标</th>
+            <th>默认大图（点击加载）</th>
+            <th>全皮肤 ×10（点击加载）</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <p class="footer-note">
+      仅<strong>小图标</strong>在表格中直接加载；<strong>默认大图与 10 张皮肤图</strong>仅在点击后通过灯箱请求，减轻网络与卡顿。
+      规则：小图 <code>skinShop/{序号}00.png</code>；默认 <code>big/static/{序号}00.png</code>；皮肤 <code>{序号}01</code>～<code>{序号}10.png</code>。
+      <a href="word_table.html">台词与语音搜索</a>
+    </p>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="大图预览">
+    <span class="close-hint" id="lbClose">关闭 ✕</span>
+    <img id="lbImg" alt="预览" src="" />
+    <div class="caption" id="lbCap"></div>
+  </div>
+
+  <script>
+    (function () {
+      var MIN_ID = 1;
+      var MAX_ID = 2500;
+      var SKIN_COUNT = 10;
+      var BASE_SHOP = "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/skinShop/";
+      var BASE_BIG = "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/big/static/";
+
+      function urlSmallIcon(id) {
+        return BASE_SHOP + id + "00.png";
+      }
+      function urlDefaultBig(id) {
+        return BASE_BIG + id + "00.png";
+      }
+      function urlSkinBig(id, skinIndex) {
+        var suf = skinIndex < 10 ? "0" + skinIndex : String(skinIndex);
+        return BASE_BIG + id + suf + ".png";
+      }
+
+      var tbody = document.getElementById("tbody");
+      var meta = document.getElementById("meta");
+      var pageSizeEl = document.getElementById("pageSize");
+      var prevBtn = document.getElementById("prev");
+      var nextBtn = document.getElementById("next");
+      var jumpIdEl = document.getElementById("jumpId");
+      var btnJump = document.getElementById("btnJump");
+      var lightbox = document.getElementById("lightbox");
+      var lbImg = document.getElementById("lbImg");
+      var lbCap = document.getElementById("lbCap");
+      var lbClose = document.getElementById("lbClose");
+
+      var page = 1;
+      var totalRows = MAX_ID - MIN_ID + 1;
+
+      function openLightbox(url, caption) {
+        lbImg.removeAttribute("src");
+        lbImg.alt = "加载中…";
+        lbCap.textContent = (caption || url) + "（加载中…）";
+        lightbox.classList.add("open");
+        document.body.style.overflow = "hidden";
+        lbImg.onload = function () {
+          lbImg.onload = null;
+          lbCap.textContent = caption || url;
+        };
+        lbImg.onerror = function () {
+          lbImg.onerror = null;
+          lbCap.textContent = (caption || url) + "（加载失败）";
+        };
+        lbImg.src = url;
+      }
+      function closeLightbox() {
+        lbImg.onload = null;
+        lbImg.onerror = null;
+        lightbox.classList.remove("open");
+        lbImg.removeAttribute("src");
+        document.body.style.overflow = "";
+      }
+      lightbox.addEventListener("click", function (e) {
+        if (e.target === lightbox || e.target === lbClose) closeLightbox();
+      });
+      lbClose.addEventListener("click", function (e) {
+        e.stopPropagation();
+        closeLightbox();
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeLightbox();
+      });
+
+      function renderBody() {
+        var size = parseInt(pageSizeEl.value, 10) || 100;
+        var pages = Math.max(1, Math.ceil(totalRows / size));
+        if (page > pages) page = pages;
+        var startIdx = (page - 1) * size;
+        var endIdx = Math.min(startIdx + size, totalRows);
+        tbody.innerHTML = "";
+
+        for (var i = startIdx; i < endIdx; i++) {
+          var id = MIN_ID + i;
+          var tr = document.createElement("tr");
+
+          var tdId = document.createElement("td");
+          tdId.className = "cell-id";
+          tdId.textContent = String(id);
+
+          var tdSm = document.createElement("td");
+          tdSm.className = "cell-img";
+          var imgSm = document.createElement("img");
+          imgSm.className = "icon-only";
+          imgSm.src = urlSmallIcon(id);
+          imgSm.alt = "小图" + id;
+          imgSm.loading = "lazy";
+          imgSm.decoding = "async";
+          imgSm.referrerPolicy = "no-referrer";
+          imgSm.title = urlSmallIcon(id);
+          (function (gid) {
+            var u = urlSmallIcon(gid);
+            imgSm.addEventListener("click", function () {
+              openLightbox(u, "小图 序号" + gid);
+            });
+          })(id);
+          tdSm.appendChild(imgSm);
+
+          var tdDef = document.createElement("td");
+          tdDef.className = "cell-load";
+          var btnDef = document.createElement("button");
+          btnDef.type = "button";
+          btnDef.className = "btn-def-big";
+          btnDef.textContent = "查看默认大图";
+          var smDef = document.createElement("small");
+          smDef.textContent = id + "00.png";
+          btnDef.appendChild(smDef);
+          (function (gid) {
+            var u = urlDefaultBig(gid);
+            btnDef.addEventListener("click", function () {
+              openLightbox(u, "默认大图 序号" + gid + " → " + gid + "00.png");
+            });
+          })(id);
+          tdDef.appendChild(btnDef);
+
+          var tdAll = document.createElement("td");
+          var rowSkins = document.createElement("div");
+          rowSkins.className = "skins-row";
+          for (var s = 1; s <= SKIN_COUNT; s++) {
+            var u = urlSkinBig(id, s);
+            var wrap = document.createElement("div");
+            wrap.className = "skin-item";
+            var btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "btn-skin";
+            btn.textContent = String(s);
+            btn.title = u + "（点击加载大图）";
+            (function (url, cap) {
+              btn.addEventListener("click", function () {
+                openLightbox(url, cap);
+              });
+            })(
+              u,
+              "序号" + id + " 皮肤" + s + " → " + id + (s < 10 ? "0" + s : String(s)) + ".png"
+            );
+            wrap.appendChild(btn);
+            rowSkins.appendChild(wrap);
+          }
+          tdAll.appendChild(rowSkins);
+
+          tr.appendChild(tdId);
+          tr.appendChild(tdSm);
+          tr.appendChild(tdDef);
+          tr.appendChild(tdAll);
+          tbody.appendChild(tr);
+        }
+
+        meta.textContent =
+          "序号 " + MIN_ID + "–" + MAX_ID + " · 本页 " + (endIdx - startIdx) + " 行 · 第 " + page + "/" + pages + " 页";
+        prevBtn.disabled = page <= 1;
+        nextBtn.disabled = page >= pages;
+      }
+
+      pageSizeEl.addEventListener("change", function () {
+        page = 1;
+        renderBody();
+      });
+      prevBtn.addEventListener("click", function () {
+        if (page > 1) {
+          page--;
+          renderBody();
+        }
+      });
+      nextBtn.addEventListener("click", function () {
+        var size = parseInt(pageSizeEl.value, 10) || 100;
+        var pages = Math.max(1, Math.ceil(totalRows / size));
+        if (page < pages) {
+          page++;
+          renderBody();
+        }
+      });
+      btnJump.addEventListener("click", function () {
+        var n = parseInt(jumpIdEl.value, 10);
+        if (isNaN(n) || n < MIN_ID || n > MAX_ID) {
+          alert("请输入 " + MIN_ID + "–" + MAX_ID + " 之间的序号");
+          return;
+        }
+        var size = parseInt(pageSizeEl.value, 10) || 100;
+        var index = n - MIN_ID;
+        page = Math.floor(index / size) + 1;
+        renderBody();
+        jumpIdEl.value = "";
+      });
+
+      renderBody();
+    })();
+  </script>
+</body>
+</html>
