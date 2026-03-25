@@ -424,7 +424,7 @@
       <tbody id="tbody"></tbody>
     </table>
   </div>
-  <p class="footer-note">数据自动请求<strong>与本页同目录</strong>的 <code>word.json</code>（适合 GitHub Pages：仓库里与 <code>word_table.html</code> 放同一文件夹并开启 Pages 即可）。武将名由语音路径解析。语音列 ▶ 播放。</p>
+  <p class="footer-note">数据自动请求<strong>与本页同目录</strong>的 <code>word.json</code>（适合 GitHub Pages：仓库里与 <code>word_table.html</code> 放同一文件夹并开启 Pages 即可）。皮肤图编号优先来自语音路径前导数字（如 <code>214huaxiongbiao</code>→21400.png）；武将名由语音路径解析。语音列 ▶ 播放。</p>
   <details class="fallback">
     <summary>无法自动加载？手动选择 word.json</summary>
     <input type="file" id="file" accept=".json,application/json" />
@@ -477,15 +477,32 @@
         sharedAudio.play().catch(function () {});
       }
 
-      /** mapKey 如 363_36301 → 取 363（第一个 _ 之前） */
+      /** mapKey 如 363_36301 → 取 363（第一个 _ 之前），仅作皮肤图数字兜底 */
       function imageNumberFromMapKey(mapKey) {
         const s = String(mapKey ?? "");
         const i = s.indexOf("_");
         return i === -1 ? s : s.slice(0, i);
       }
 
-      function skinShopUrl(mapKey) {
-        const n = imageNumberFromMapKey(mapKey);
+      /**
+       * 皮肤图编号优先来自语音路径首段的前导数字，如 214huaxiongbiao/... → 214 → 21400.png
+       */
+      function skinImageNumberFromSounds(sounds) {
+        if (!Array.isArray(sounds)) return "";
+        for (let i = 0; i < sounds.length; i++) {
+          const raw = String(sounds[i] ?? "").trim();
+          if (!raw) continue;
+          const head = raw.split("/")[0];
+          const m = head.match(/^(\d+)/);
+          if (m) return m[1];
+        }
+        return "";
+      }
+
+      /** 皮肤图：…/skinShop/{number}00.png；number 优先来自语音资源，否则用 mapKey 前缀 */
+      function skinShopUrl(mapKey, sounds) {
+        const fromSound = skinImageNumberFromSounds(sounds);
+        const n = fromSound || imageNumberFromMapKey(mapKey);
         return "https://web.sanguosha.com/220/h5_2/res/runtime/pc/general/skinShop/" + n + "00.png";
       }
 
@@ -525,7 +542,7 @@
           for (const item of arr) {
             if (item && typeof item === "object") {
               rows.push({
-                skinShop: skinShopUrl(mapKey),
+                skinShop: skinShopUrl(mapKey, item.sounds),
                 generalName: generalNameFromSounds(item.sounds),
                 skillName: item.skillName,
                 words: item.words,
